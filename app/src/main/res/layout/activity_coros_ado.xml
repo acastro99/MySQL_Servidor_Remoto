@@ -45,6 +45,7 @@
         android:textAlignment="center"
         android:textSize="15dp"
         android:hint="Título"
+        android:inputType="text"
         android:background="@drawable/etestilo"
         android:layout_marginTop="15dp"
         />
@@ -68,7 +69,6 @@
         android:textSize="15dp"
         android:hint="Letra"
         android:layout_marginTop="10dp"
-        android:inputType="text"
         android:background="@drawable/etestilo"/>
 
     <Button
