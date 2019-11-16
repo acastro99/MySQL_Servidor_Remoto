@@ -8,16 +8,34 @@
     android:orientation="vertical"
     android:layout_margin="25dp">
 
-
-<TextView
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="Registro Alabanzas"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Alabanzas"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_coros"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Registro Coros"
+    android:background="@drawable/etestilo"
     android:textAlignment="center"
     android:textColor="#000"
     android:textStyle="bold"
-    android:textSize="20dp"
+    android:layout_marginLeft="10dp"
+        android:onClick="coros"
     />
+</LinearLayout>
+
 
     <EditText
         android:id="@+id/ettitulo"
@@ -26,7 +44,6 @@
         android:textAlignment="center"
         android:textSize="15dp"
         android:hint="Título"
-        android:inputType="text"
         android:background="@drawable/etestilo"
         android:layout_marginTop="15dp"
         />
@@ -60,12 +77,22 @@
         android:text="Registrar"
         android:layout_marginTop="15dp"
         />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
 
     <ListView
         android:id="@+id/lvDatos"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="1000dp"
         android:layout_marginTop="15dp"
         />
+    </LinearLayout>
+</ScrollView>
 
 </LinearLayout>

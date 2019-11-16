@@ -3,6 +3,8 @@ package com.example.proyect;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import com.loopj.android.http.*;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -187,4 +189,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void coros(View view) {
+        Intent intent = new Intent(this, CorosAdoActivity.class);
+        startActivity(intent);
+    }
 }
