@@ -4,42 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CorosAdoActivity"
-    android:gravity="center"
+    tools:context=".CorosAleActivity"
+    android:orientation="vertical"
     android:layout_margin="25dp"
-    android:orientation="vertical">
+    >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registro Coros"
+            android:text="Registro Coros Alegres"
             android:textAlignment="center"
             android:textColor="#000"
             android:textStyle="bold"
             android:textSize="20dp"
             />
 
-        <Button
-            android:id="@+id/btn_corosA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Coros  Alegres"
-            android:background="@drawable/etestilo"
-            android:textAlignment="center"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:layout_marginLeft="10dp"
-            android:onClick="coroale"
-            />
-    </LinearLayout>
 
 
     <EditText
-        android:id="@+id/ettituloca"
+        android:id="@+id/ettituloa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -50,7 +34,7 @@
         />
 
     <EditText
-        android:id="@+id/etautorca"
+        android:id="@+id/etautora"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -61,7 +45,7 @@
         android:background="@drawable/etestilo"/>
 
     <EditText
-        android:id="@+id/etletraca"
+        android:id="@+id/etletraa"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:textAlignment="center"
@@ -72,7 +56,7 @@
         android:background="@drawable/etestilo"/>
 
     <Button
-        android:id="@+id/btnRegistrarca"
+        android:id="@+id/btnRegistrara"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registrar"
@@ -89,7 +73,7 @@
 
 
             <ListView
-                android:id="@+id/lvDatosca"
+                android:id="@+id/lvDatosa"
                 android:layout_width="match_parent"
                 android:layout_height="1000dp"
                 android:layout_marginTop="15dp"
