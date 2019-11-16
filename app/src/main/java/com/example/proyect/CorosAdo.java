@@ -54,9 +54,9 @@ public class CorosAdo {
     }
 
     public  String tostring(){
-        return  "Id: " + id + "\n"+
-                "Titulo: " + titulo + "\n"+
-                "Autor: " + autor + "\n"+
-                "Letra: " +  letra + "\n";
+        return  "ID: " + id + "\n"+
+                "TÍTULO: " + titulo + "\n"+
+                "AUTOR: " + autor + "\n\n"+
+                "LETRA: " +  "\n" + letra ;
     }
 }

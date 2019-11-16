@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnRegistrar = findViewById(R.id.btnRegistrar);
 
-        lvdatos = findViewById(R.id.lvDatos);
+        lvdatos = findViewById(R.id.lvDatosR);
 
        cliente = new AsyncHttpClient();
         almacenarAlabanzas();
@@ -191,6 +191,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void coros(View view) {
         Intent intent = new Intent(this, CorosAdoActivity.class);
+        startActivity(intent);
+    }
+
+    public void registro(View view) {
+        Intent intent = new Intent(this, listar_registro.class);
         startActivity(intent);
     }
 }
