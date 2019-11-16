@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CorosAdoActivity"
-    android:gravity="center"
     android:layout_margin="25dp"
     android:orientation="vertical">
 
@@ -21,6 +20,7 @@
             android:textColor="#000"
             android:textStyle="bold"
             android:textSize="20dp"
+            android:onClick="registroC"
             />
 
         <Button
@@ -79,22 +79,5 @@
         android:layout_marginTop="15dp"
         />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-            <ListView
-                android:id="@+id/lvDatosca"
-                android:layout_width="match_parent"
-                android:layout_height="1000dp"
-                android:layout_marginTop="15dp"
-                />
-        </LinearLayout>
-    </ScrollView>
 
 </LinearLayout>

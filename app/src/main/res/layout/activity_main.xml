@@ -78,22 +78,6 @@
         android:text="Registrar"
         android:layout_marginTop="15dp"
         />
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-
-    <ListView
-        android:id="@+id/lvDatos"
-        android:layout_width="match_parent"
-        android:layout_height="1000dp"
-        android:layout_marginTop="15dp"
-        />
-    </LinearLayout>
-</ScrollView>
 
 </LinearLayout>
